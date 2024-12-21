@@ -22,8 +22,8 @@ public class ProductPanel extends JPanel {
 
     private List<Product> getAllProducts() {
         return List.of(
-            ProductFactory.createProduct("Electronics", "Smartphone", "Latest model", 699.99, "/path/to/image"),
-            ProductFactory.createProduct("Clothing", "T-Shirt", "Cotton T-Shirt", 19.99, "/path/to/image")
+            ProductFactory.createProduct("Electronics"),
+            ProductFactory.createProduct("Clothing")
         );
     }
 }
