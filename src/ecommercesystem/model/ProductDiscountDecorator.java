@@ -21,4 +21,16 @@ public class ProductDiscountDecorator implements Product {
 	public double getPrice() {
 		return decoratedProduct.getPrice();
 	}
+
+	@Override
+	public String getType() {
+		// TODO Auto-generated method stub
+		return decoratedProduct.getType();
+	}
+
+	@Override
+	public String getImagePath() {
+		// TODO Auto-generated method stub
+		return decoratedProduct.getImagePath();
+	}
 }

@@ -17,4 +17,16 @@ public class DefaultProduct implements Product{
 		// TODO Auto-generated method stub
 		return 0;
 	}
+
+	@Override
+	public String getType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getImagePath() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
